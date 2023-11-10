@@ -1,0 +1,11 @@
+public class GirlsGradeA {
+    public static void main(String[] args) {
+        int totalStudents = 90;
+        int boys = 45;
+        double gradeAPercentage = 50.0;
+        int boysGradeA = 20;
+        int totalGradeA = (int) (totalStudents * (gradeAPercentage / 100.0));
+        int girlsGradeA = totalGradeA - boysGradeA;
+        System.out.println("Total number of girls getting grade 'A': " + girlsGradeA);
+    }
+}
